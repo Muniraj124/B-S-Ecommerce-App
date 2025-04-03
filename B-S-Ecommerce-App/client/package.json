@@ -1,0 +1,48 @@
+{
+  "name": "bs-ecommerce",
+  "version": "1.0.0",
+  "description": "A simple e-commerce app (B&S Store)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/bs-ecommerce.git"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",  // For API calls
+    "react": "^18.2.0",  // React library
+    "react-dom": "^18.2.0",  // React DOM
+    "react-router-dom": "^6.0.0",  // For routing
+    "react-scripts": "^5.0.0",  // Create React App scripts
+    "react-toastify": "^9.1.1",  // For displaying notifications (optional)
+    "react-redux": "^8.0.5",  // For state management (if using Redux)
+    "redux": "^4.2.1",  // Redux core (if using Redux)
+    "redux-thunk": "^2.4.2"  // For async actions in Redux (if using Redux)
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0",  // Linter for code quality
+    "prettier": "^2.6.2"  // Code formatter
+  },
+  "scripts": {
+    "start": "react-scripts start",  // Start development server
+    "build": "react-scripts build",  // Build app for production
+    "test": "react-scripts test",  // Run tests
+    "eject": "react-scripts eject",  // Eject the configuration (advanced use)
+    "lint": "eslint src",  // Run eslint linter on src files
+    "format": "prettier --write src"  // Format code with Prettier
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+

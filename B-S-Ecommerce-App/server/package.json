@@ -1,0 +1,30 @@
+{
+  "name": "bs-ecommerce",
+  "version": "1.0.0",
+  "description": "B&S E-commerce web app with Razorpay payment gateway",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo \"Build command\"",
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "keywords": ["ecommerce", "razorpay", "node", "express", "mongodb"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "mongoose": "^6.1.8",
+    "razorpay": "^2.8.7",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
+
